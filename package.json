@@ -1,0 +1,26 @@
+{
+  "name": "test-lit-element",
+  "version": "1.0.0",
+  "description": "Test for lit elements",
+  "main": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index dist/index.html --node-resolve --watch --open",
+    "start:compatibility": "es-dev-server --compatibility all --app-index index.html --node-resolve --watch --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HariSweetQ/test-lit-element.git"
+  },
+  "author": "Jesús García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HariSweetQ/test-lit-element/issues"
+  },
+  "homepage": "https://github.com/HariSweetQ/test-lit-element#readme",
+  "dependencies": {
+    "lit-element": "^3.2.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.1.0"
+  }
+}
